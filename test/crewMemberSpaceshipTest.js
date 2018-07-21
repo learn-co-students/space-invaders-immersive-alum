@@ -32,6 +32,7 @@ describe('ship with a crew', () => {
 
   describe('charge phasers', () => {
     it("it should set phasers to 'charged' when the gunner chargePhasers()", () => {
+      debugger;
       pilot.chargePhasers();
       expect(aluminumFalcon.phasersCharge).to.match(/uncharged/i);
 
